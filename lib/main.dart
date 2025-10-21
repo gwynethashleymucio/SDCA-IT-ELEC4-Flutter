@@ -1,6 +1,6 @@
 import 'package:flutter/material.dart';
 import 'screens/home_screen.dart';
-
+import 'screens/register_screen.dart';
 
 void main() {
   runApp(App());
@@ -10,10 +10,10 @@ class App extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return MaterialApp(
-      home: HomeScreen(),
+      home: RegisterScreen(),
       theme: ThemeData(
         appBarTheme: AppBarTheme(
-          backgroundColor: Colors.pinkAccent,
+          backgroundColor: Colors.red,
           foregroundColor: Colors.white
         )
       ),
